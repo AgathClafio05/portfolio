@@ -25,18 +25,18 @@ local_css("style/style.css")
 
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
-img_contact_form = Image.open("images/Best-sites-and-practices-for-monitoring-hotel-reviews (1).png")
+img_contact_form = Image.open("images/Bankruptcy.jpg")
 img_lottie_animation = Image.open("images/Opiod stock photo.jpg")
 
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("Hi, I am Sakthi Jaisankar :wave:")
+    st.subheader("Hi, I am Agath Clafio :wave:")
     st.title("A Data Scientist")
     st.write(
-        "Motivated and results-driven Mathematics graduate, Offering a strong foundation in Machine Learning models, data analysis, and SQL, with a proven ability to predict future data, deliver successful outcomes and collaborate within cross-functional teams.."
+        "Motivated and results-driven Computer science graduate, Offering a strong foundation in Machine Learning models, data analysis, and SQL, with a proven ability to predict future data, deliver successful outcomes and collaborate within cross-functional teams.."
     )
-    st.write("[Learn More >](https://www.linkedin.com/in/sakthijaisankar)")
+    st.write("[Learn More >](https://www.linkedin.com/in/agathclafio/)")
 
 # ---- WHAT I DO ----
 with st.container():
@@ -57,7 +57,7 @@ with st.container():
             of my role."
             """
         )
-        st.write("[Git >](https://github.com/sakthijaisankar)")
+        st.write("[Git >](https://github.com/AgathClafio05)")
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
 
@@ -78,21 +78,21 @@ with st.container():
             Enabled 60percent of hospitals to predict drug satisfaction, facilitating informed treatment selection and management.
             """
         )
-        st.markdown("[Explore Our Project...](https://drive.google.com/drive/folders/1iaGzfPeO6OsmcFUq7MizDa7jMPvefQjv?usp=drive_link)")
+        st.markdown("[Explore Our Project...](https://github.com/AgathClafio05/project-01)")
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
         st.image(img_contact_form)
     with text_column:
-        st.subheader("Hotel Reviews Analysis")
+        st.subheader("Bankruptcy prevention")
         st.write(
             """
-            Conducted text analysis on over 20,000 hotel reviews to extract insights.
-            Identified key trends and sentiments within the reviews to gauge customer satisfaction.
-            Provided actionable recommendations based on the analysis to improve overall hotel experience and customer satisfaction.
+           The Bankruptcy Prevention Project helps determine if a business is at risk of bankruptcy using various features. Models like Decision Tree, Random Forest, SVM, 
+           and Naïve Bayes show high testing accuracy, around 96.9%. We evaluate our model's performance by printing training and testing accuracies. 
+           Additionally, we've created a user-friendly HTML website to help users easily understand if a company is at risk of bankruptcy or not.
             """
         )
-        st.markdown("[Explore Our Project...](https://drive.google.com/drive/folders/172jz77fmAaD2BJp1mT3ohHcPxwDWuUyM?usp=drive_link)")
+        st.markdown("[Explore Our Project...](https://github.com/AgathClafio05/project-02)")
 
 # ---- CONTACT ----
 with st.container():
@@ -102,7 +102,7 @@ with st.container():
 
     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
     contact_form = """
-    <form action="https://formsubmit.co/sakthineg007@gmail.com" method="POST">
+    <form action="https://formsubmit.co/agathclafio55@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
