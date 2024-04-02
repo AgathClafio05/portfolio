@@ -29,6 +29,7 @@ local_css("style/style.css")
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 img_xontact_form = Image.open("images/Bankruptcy.jpg")
 img_lottie_animation = Image.open("images/Opiod stock photo.jpg")
+img_animation_from = Image.open("images/netflix.jpg")
 
 
 # ---- HEADER SECTION ----
@@ -98,7 +99,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_lottie_animation)
+        st.image(img_animation_from)
     with text_column:
         st.subheader("Netflix Recommendation")
         st.write(
