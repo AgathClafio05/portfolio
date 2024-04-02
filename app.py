@@ -29,7 +29,7 @@ local_css("style/style.css")
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 img_xontact_form = Image.open("images/Bankruptcy.jpg")
 img_lottie_animation = Image.open("images/Opiod stock photo.jpg")
-img_animation_from = Image.open("images/netflix.jpg")
+img_animation_from = Image.open("images/download.png")
 
 
 # ---- HEADER SECTION ----
