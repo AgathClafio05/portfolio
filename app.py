@@ -27,7 +27,7 @@ local_css("style/style.css")
 
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
-img_contact_form = Image.open("images/Bankruptcy.jpg")
+img_xontact_form = Image.open("images/Bankruptcy.jpg")
 img_lottie_animation = Image.open("images/Opiod stock photo.jpg")
 
 
@@ -84,7 +84,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_contact_form)
+        st.image(img_xontact_form)
     with text_column:
         st.subheader("Bankruptcy prevention")
         st.write(
