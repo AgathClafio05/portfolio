@@ -93,6 +93,18 @@ with st.container():
             """
         )
         st.markdown("[Explore Our Project...](https://github.com/AgathClafio05/project-02)")
+        with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_contact_form)
+    with text_column:
+        st.subheader("Netflix Recommendation")
+        st.write(
+            """
+           Led data analysis on a dataset (6233 records, 13 attributes) focusing on Netflix trends. Discovered movies dominate, TV shows grow fast. Used TFIDF, PCA (10000 to 3000 components). Applied K-Means (11 clusters), Agglomerative (3 clusters) for clustering. Built a content-based recommender using cosine similarity. Proficient in Python for ML workflows.
+            """
+        )
+        st.markdown("[Explore Our Project...](https://github.com/AgathClafio05/project-03)")
 
 # ---- CONTACT ----
 with st.container():
