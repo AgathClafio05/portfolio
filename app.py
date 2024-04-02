@@ -98,7 +98,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_contact_form)
+        st.image(img_lottie_animation)
     with text_column:
         st.subheader("Netflix Recommendation")
         st.write(
