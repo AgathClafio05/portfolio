@@ -93,7 +93,7 @@ with st.container():
             """
         )
         st.markdown("[Explore Our Project...](https://github.com/AgathClafio05/project-02)")
-        with st.container():
+with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
         st.image(img_contact_form)
